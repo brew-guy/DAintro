@@ -122,6 +122,7 @@ print daily_engagement[0]["account_key"]
 # Why are students missing from daily_engagement?
 # Identify surprising data points: Any enrollment record with no corresponding engangement data
 
+# Using difference operation on my sets to identify students not in both sets
 students_missing_from_engagement = unique_enrolled_students - unique_engagement_students
 
 problem_count = 0
